@@ -46,7 +46,7 @@ fn build_ui(app: &Application) {
         println!("Button clicked.");
     });
 
-    // Retrieves the gtk::Window with object id `window`.
+    // Retrieves the gtk::ApplicationWindow with object id `window`.
     let window = widgets.window();
     window.set_application(Some(app));
     window.present(); // Needs to be changed to `show_all` if Gtk3 is used.

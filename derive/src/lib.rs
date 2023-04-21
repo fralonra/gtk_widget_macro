@@ -1,5 +1,6 @@
-//! Documentation: https://docs.rs/gtk_widget_macro
-//! crates.io: https://crates.io/crates/gtk_widget_macro
+//! Documentation: [https://docs.rs/gtk_widget_macro](https://docs.rs/gtk_widget_macro)
+//!
+//! crates.io: [https://crates.io/crates/gtk_widget_macro](https://crates.io/crates/gtk_widget_macro)
 use proc_macro::TokenStream;
 use quote::quote;
 use syn::{self, Data, DeriveInput, Fields, Type};
