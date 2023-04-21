@@ -4,14 +4,14 @@ version = 3
 
 [[package]]
 name = "gtk_widget_macro"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "gtk_widget_macro_derive",
 ]
 
 [[package]]
 name = "gtk_widget_macro_derive"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "quote",
  "syn",
