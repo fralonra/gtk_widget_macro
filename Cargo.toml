@@ -1,0 +1,14 @@
+[package]
+name = "gtk_widget_macro"
+version = "0.1.0"
+authors = ["fralonra <zoronlivingston@gmail.com>"]
+edition = "2021"
+description = "A derive macro helps you handle Gtk widgets"
+readme = "README.md"
+homepage = "https://github.com/fralonra/gtk_widget_macro"
+repository = "https://github.com/fralonra/gtk_widget_macro"
+license = "MIT"
+keywords = ["gtk", "gtk-rs", "macro", "macros"]
+
+[dependencies]
+gtk_widget_macro_derive = { path = "derive", version = "0.1.0" }
